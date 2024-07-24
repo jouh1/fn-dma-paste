@@ -175,10 +175,6 @@ void case2()
         SetLayeredWindowAttributes(my_wnd, RGB(0, 0, 0), 255, LWA_ALPHA);
     }
 
-    ImGui::Text("ISLE DMA Free Version");
-    if (ImGui::Button("Discord", {120, 20})) {
-        Start("discord.gg/6RDv4Ha4yX");
-    }
     ImGui::SetCursorPosY(ImGui::GetWindowHeight() - ImGui::GetFrameHeightWithSpacing() - ImGui::GetStyle().ItemSpacing.y);
     ImGui::SetCursorPosX(ImGui::GetWindowWidth() - 130);
     if (ImGui::Button("Close", { 120, 20 })) exit(0);
